@@ -35,7 +35,7 @@ public class DriverManager {
 		List<Driver> aDrivers = null;
 		try {
 			
-			aDrivers = (List<Driver>)session.createQuery("from Drivers").list();
+			aDrivers = (List<Driver>)session.createQuery("from Driver").list();
 			
 		} catch (HibernateException e) {
 			e.printStackTrace();
