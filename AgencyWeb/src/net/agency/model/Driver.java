@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Drivers")
+@Table(name="Driver")
 public class Driver implements Serializable {
 	
 	
